@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;;
+
+}
+/* header styling */
+header{
+    height: 90px;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* background-color: green; */
+}
+.brand_name{
+    display: flex;
+    align-items: center;
+}
+.brand_name i{
+    font-size: 30px;
+    color: #362FD9;
+    margin-right: 10px;
+}
+.brand_name span{
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    transition: all 0.50s ease;
+    
+}
+.menu a{
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.menu a.Active{
+    color: #362FD9;
+}
+.menu a:hover{
+    color: #362FD9;
+}
+/* hero section */
+.hero_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+
+
+}
+.left{
+    height: 100%;
+    width: 40%;
+    background-color: #BCA37F;
+}
+.card{
+    height: 496px;
+    width: 350px;
+    margin: 130px 0px 80px 310px;
+    padding: 50px 30px;
+    text-align: center;
+    background-color: #EAD7BB;
+    position: absolute;
+    
+}
+.card img{
+    height: 190px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 27px;
+    margin-top: 20px;
+    
+}
+.card h3 {
+    font-size: 27px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+.card hr{
+    width: 20%;
+    color: #362FD9;
+    background-color: #362FD9;
+    height: 2px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+
+}
+.card p{
+    font-size: 22px;
+    font-weight: 350;
+    letter-spacing: 4px;
+    
+}
+.social_icons{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 60px;
+    
+    margin-top: 24px;
+    
+   
+    
+}
+.social_icons a{
+    font-size: 21px;
+    color: #000;
+    margin-right: 20px;
+    padding: 10px 0;
+
+}
+/* right section */
+
+.right{
+    height: 100%;
+    width: 60%;
+    padding: 190px 100px;
+   
+}
+.right h1{
+    font-size: 110px;
+    
+}
+.right h2{
+    font-weight: 400;
+}
+.btn{
+    margin: 20px 0;
+}
+.btn1{
+    
+    margin-right: 5px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #362FD9;
+    
+    border: 2px solid #362FD9;
+    transition: all 0.50s ease;
+    
+    
+}
+.btn1:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #362FD9;
+}
+.btn2 {
+    
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 20px;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+    transition: all 0.50s ease;
+
+
+}
+.btn2:hover{
+    border-color: #362FD9;
+    color: #fff;
+    background-color: #362FD9;
+}
+#t1{
+    margin: 30px 0;
+    font-weight: 300;
+}
+#t2{
+    margin: 10px 0;
+    font-weight: 300;
+}
